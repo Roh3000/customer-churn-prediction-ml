@@ -4,8 +4,8 @@ import numpy as np
 
 app = Flask(__name__)
 # Load model and scaler
-model = joblib.load("C:/Users/Roh00/Downloads/customer_churn_prediction/churn_model.pkl")
-scaler = joblib.load("C:/Users/Roh00/Downloads/customer_churn_prediction/scaler.pkl")
+model = joblib.load("C:/Users/Roh00/Downloads/customer_churn_prediction/sample_model/churn_model.pkl")
+scaler = joblib.load("C:/Users/Roh00/Downloads/customer_churn_prediction/sample_model/scaler.pkl")
 
 
 @app.route("/")
